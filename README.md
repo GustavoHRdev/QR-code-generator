@@ -46,9 +46,10 @@ git clone https://github.com/GustavoHRdev/QR-code-generator.git
 💼 About the Author
 Made with by Gustavo Honorio
 
-💼 LinkedIn: linkedin.com/in/gustavohrdev
-💻 GitHub: github.com/GustavoHRdev
-📱 WhatsApp: https://wa.me/5543996129
+💼 LinkedIn: [linkedin.com/in/gustavohrdev](https://linkedin.com/in/gustavohrdev)  
+💻 GitHub: [github.com/GustavoHRdev](https://github.com/GustavoHRdev)  
+📱 WhatsApp: [https://wa.me/5543996129](https://wa.me/5543996129)
+
 
 📌 License
 This project is licensed under the MIT License.
