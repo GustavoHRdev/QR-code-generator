@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(90deg, #6366f1, #818cf8, #a5b4fc);
+  color: transparent; /* fallback */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* para Safari e Chrome */
+  animation: fadeInDown 1s ease;
+  user-select: none;
+}
+
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  max-width: 400px;
+  animation: fadeIn 1s ease;
+}
+
+input {
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f8fafc;
+  height: 48px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input::placeholder {
+  color: #cbd5e1;
+  font-style: italic;
+}
+
+input:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 12px rgba(99, 102, 241, 0.4);
+}
+
+button {
+  padding: 14px 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6366f1, #818cf8);
+  color: white;
+  cursor: pointer;
+  height: 48px;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 16px rgba(99, 102, 241, 0.4);
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(129, 140, 248, 0.6);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(99, 102, 241, 0.8) inset;
+}
+
+#qr {
+  text-align: center;
+  margin-top: 20px;
+  animation: fadeInUp 0.8s ease;
+}
+
+#qr img {
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  transform: scale(0.9);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+#qr img.loaded {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#qr.loading::before {
+  content: 'Gerando QR Code...';
+  display: block;
+  color: #94a3b8;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-top: 40px;
+  animation: fadeInUp 1s ease;
+}
+
+.social-links a {
+  background: rgba(99, 102, 241, 0.15); /* azul leve transparente */
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.4);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links a img {
+  width: 42px;
+  height: 42px;
+  opacity: 0.9;
+  transition: filter 0.3s ease;
+  filter: drop-shadow(0 0 1px rgba(0,0,0,0.6));
+  border-radius: 8px;
+}
+
+.social-links a:hover {
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.8);
+  transform: scale(1.15);
+}
+
+.social-links a:hover img {
+  filter: drop-shadow(0 0 4px #6366f1);
+  opacity: 1;
+}
+
+
+
+/* Animações */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #qr img {
+    width: 160px;
+    height: 160px;
+  }
+}
