@@ -8,7 +8,8 @@ This is a responsive web project that allows you to quickly and stylishly genera
 
 ## 🔗 Live Demo
 
-📎 [Click here to view it on GitHub Pages](https://gustavohrdev.github.io/QR-code-generator)
+📎 [Clique para acessar no GitHub Pages](https://gustavohrdev.github.io/QR-code-generator/)
+
 
 ---
 
@@ -43,7 +44,7 @@ git clone https://github.com/GustavoHRdev/QR-code-generator.git
 3. Open the index.html file in your browser or deploy it via GitHub Pages.
 
 💼 About the Author
-Made with 💙 by Gustavo Henrique
+Made with 💙 by Gustavo Honorio
 
 🌐 gustavohrdev.github.io
 
