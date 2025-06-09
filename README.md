@@ -50,9 +50,5 @@ Made with by Gustavo Honorio
 💻 GitHub: [github.com/GustavoHRdev](https://github.com/GustavoHRdev)  
 📱 WhatsApp: [https://wa.me/5543996129](https://wa.me/5543996129)
 
-
-📌 License
-This project is licensed under the MIT License.
-
 📍 Notes
 This project is part of my personal portfolio and ongoing learning as a front-end developer. Feel free to send suggestions, improvements, or open issues!
