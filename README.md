@@ -44,15 +44,11 @@ git clone https://github.com/GustavoHRdev/QR-code-generator.git
 3. Open the index.html file in your browser or deploy it via GitHub Pages.
 
 💼 About the Author
-Made with 💙 by Gustavo Honorio
+Made with by Gustavo Honorio
 
-🌐 gustavohrdev.github.io
-
-💼 LinkedIn
-
-💻 GitHub
-
-📱 WhatsApp
+💼 LinkedIn: linkedin.com/in/gustavohrdev
+💻 GitHub: github.com/GustavoHRdev
+📱 WhatsApp: https://wa.me/5543996129
 
 📌 License
 This project is licensed under the MIT License.
