@@ -1,42 +1,38 @@
-# QR Code Generator 🧩
+# 🧩 QR Code Generator / Gerador de QR Code Responsivo
 
-This is a responsive web project that allows you to quickly and stylishly generate QR Codes from any text or link. Built with a focus on simplicity, performance, and a modern interface using pure HTML, CSS, and JavaScript.
+![Project Preview](./image/print-projeto.PNG)
 
 [🇧🇷 Versão em Português](#versao-em-portugues) | [🇬🇧 English Version](#english-version)
 
-## 📸 Preview
-
-![Project Preview](./image/print-projeto.PNG) 
-
-
-## 🔗 Live Demo
-
-📎 [click to access github pages](https://gustavohrdev.github.io/QR-code-generator/)
+---
 
 ## 🇬🇧 English Version
-<a name="#english-version"></a>
----
+<a name="english-version"></a>
 
-## ✨ Features
+### 📌 Description
 
-- ✅ Real-time QR Code generation via external API
-- ✅ Modern interface with smooth animations and shadows
-- ✅ Fully responsive on mobile devices
-- ✅ Social media links with visual emphasis (LinkedIn, GitHub, WhatsApp)
-- ✅ Click and hover effects on the generate button
+This is a **responsive web project** that allows you to quickly and stylishly generate QR Codes from any text or link.  
+Built with a focus on **simplicity, performance, and a modern interface** using pure HTML, CSS, and JavaScript.
 
----
+### 🌐 Live Demo  
+👉 [Click to access GitHub Pages](https://gustavohrdev.github.io/QR-code-generator/)
 
-## 🛠️ Technologies Used
+### ✨ Features
 
-- **HTML5** — Page structure
-- **CSS3** — Styling and responsiveness (gradients, animations, `backdrop-filter`)
-- **JavaScript (Vanilla)** — Core logic and DOM manipulation
-- **[QR Code API](https://goqr.me/api/)** — External API for dynamic QR code generation
+- ✅ Real-time QR Code generation via external API  
+- ✅ Modern interface with smooth animations and shadows  
+- ✅ Fully responsive on mobile devices  
+- ✅ Social media links with visual emphasis (LinkedIn, GitHub, WhatsApp)  
+- ✅ Click and hover effects on the generate button  
 
----
+### 🛠️ Technologies Used
 
-## 🚀 How to Use
+- **HTML5** — Page structure  
+- **CSS3** — Styling and responsiveness (gradients, animations, `backdrop-filter`)  
+- **JavaScript (Vanilla)** — Core logic and DOM manipulation  
+- **[QR Code API](https://goqr.me/api/)** — External API for dynamic QR code generation  
+
+### ▶️ How to Use
 
 1. Clone the repository:
 
