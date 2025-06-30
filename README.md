@@ -13,7 +13,8 @@ This is a responsive web project that allows you to quickly and stylishly genera
 
 📎 [click to access github pages](https://gustavohrdev.github.io/QR-code-generator/)
 
-🇬🇧 English Version
+## 🇬🇧 English Version
+<a name="#english-version"></a>
 ---
 
 ## ✨ Features
